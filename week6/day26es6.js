@@ -229,6 +229,6 @@ console.log(user.logout()); //admin logged out
 ////});
 
 const runTest = (browser) => `Browser: ${browser}`;
-['no browser', firefox', 'webkit'].forEach((browser) => {
+['no browser', 'firefox', 'webkit'].forEach((browser) => {
     console.log(runTest(browser));
 });
